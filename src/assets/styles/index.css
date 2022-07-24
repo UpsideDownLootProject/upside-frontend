@@ -1,0 +1,210 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 85vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: #1a1a1a!important;
+  padding: 2px!important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  font-size: medium;
+  text-align: center;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: underline;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.top-link{
+  width: fit-content!important;
+}
+
+.top-link h2 {
+  text-align: center;
+}
+
+.faq {
+  width: 100%;
+}
+
+.faq h2 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.faq p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.font-x-small {
+  font-size: x-small;
+}
+
+.font-x-small a {
+  text-decoration: underline;
+}
+
+.connect-wallet {
+  padding: 12px !important;
+  margin-top: 25px!important;
+  font-size: medium !important;
+  font-weight: bold !important;
+  border-radius: 0.75rem !important;
+}
+
+.connect-logo {
+  width: 100%;
+  height: 128px;
+  justify-content: center;
+  display: flex;
+}
+
+.connect-button {
+  width: 100% !important;
+  justify-content: center !important;
+  display: flex !important;
+  margin-bottom: 8px !important;
+  border-radius: 0.75rem !important;
+}
+
+.error-connect {
+  text-align: center;
+  color: red;
+  font-size: small;
+  margin-top: 8px;
+}
+
+.waiting-connect {
+  color: yellow;
+  font-size: small;
+  margin-top: 8px;
+}
+
+.modal-connect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #1a1a1a;
+  padding: 32px;
+  border-radius: 21px;
+}
+
+.account {
+  text-align: center;
+}
+
+.account button {
+  justify-content: center !important;
+  margin-bottom: 8px !important;
+  border-radius: 0.75rem !important;
+  margin-top: 25px!important;
+}
+
+.mint {
+  width: 100%;
+}
+
+.mint h3, .mint h2 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.mint .MuiOutlinedInput-root {
+  border-radius: 0.75rem!important;
+}
+
+.mint fieldset {
+  border-color: #fff!important;
+} 
+
+.mint .MuiGrid-item {
+  margin-bottom: 25px!important;
+  text-align: center!important;
+}
+
+.mint .check {
+  border-radius: 0.75rem!important;
+  margin-left: 2%!important;
+  width: 24%!important;
+  height: 56px!important;
+}
+
+.mint-button {
+  border-radius: 0.75rem!important;
+  margin-top: 25px!important;
+  width: 90%!important;
+}
+
+.text-error {
+  color: #ff0000
+}
+
+.text-success {
+  color: #00ff00
+}
+
+.snack-personal{
+  background-color: #e0e0e0!important;
+  border-radius: 0.75rem!important;
+  max-width: 100%!important;
+}
+
+.snack-personal div {
+  color: #1a1a1a!important;
+  font-family: 'Inconsolata', monospace;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .card,
+  .footer {
+    border-color: #222;
+  }
+
+  .code {
+    background: #111;
+  }
+
+  .logo img {
+    filter: invert(1);
+  }
+}
