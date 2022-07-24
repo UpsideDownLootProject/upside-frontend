@@ -89,9 +89,9 @@ const Mint: NextPage = () => {
                 </h1>
 
                 <p>
-                    <Link color="inherit" href="https://opensea.io/collection/upside-down-loot">
+                    <a color="inherit" href="https://etherscan.io/address/0x191dfb7e10f4c3a82b2c4f763d48744b6c7cf7ec#code" target="_blank" rel="noreferrer">
                         view contract
-                    </Link>
+                    </a>
                 </p>
 
                 {isActive ? (
